@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "pwa-node",
+            "request": "launch",
+            "name": "Hardhat Test",
+            "skipFiles": ["<node_internals>/**"],
+            "runtimeExecutable": "npx",
+            "runtimeArgs": ["hardhat", "test"],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "openOnSessionStart"
+        }
+    ]
+}

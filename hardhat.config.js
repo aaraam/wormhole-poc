@@ -15,7 +15,7 @@ module.exports = {
     },
     networks: {
         testnet: {
-            url: 'https://rpc.tenderly.co/fork/1ad4be56-8cc3-4ceb-91d4-5dcf97c56d24',
+            url: 'https://rpc.tenderly.co/fork/79545eea-6067-4f1e-a548-df2d4dddf01b',
             accounts: [process.env.PRIVATE_KEY],
         },
     },
